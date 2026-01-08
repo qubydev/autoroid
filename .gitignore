@@ -1,0 +1,7 @@
+__pycache__/
+*.xml
+.env*
+!.env.example
+venv/
+.venv/
+.DS_Store
