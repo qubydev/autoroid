@@ -11,39 +11,32 @@
    AI-Powered Android Automation Assistant
 </div>
 
+
 ## 👉 Introduction
 
 **Autoroid** leverages Large Language Models (LLMs) to understand your intent and interact with your Android device through **ADB**.
 From navigating apps to automating repetitive actions like taps, swipes, and text input — just tell Autoroid what you want to do.
 
----
 
 ## ✨ Features
 
-* **🗣 Natural Language Control**
+* **Natural Language Control** -
   Describe actions like:
   `Open Settings and enable dark mode`
 
-* **👁 UI Awareness**
+* **UI Awareness** -
   Parses Android UI hierarchies to intelligently locate buttons, text, and inputs.
 
-* **🔌 Universal Android Support**
+* **Universal Android Support** -
   Works with physical devices and emulators as long as ADB is enabled.
 
-* **⚙ Configurable LLM Backend**
+* **Configurable LLM Backend** -
   Supports OpenAI (GPT-4o) and any LangChain-compatible provider.
 
----
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-Follow the steps below to set up Autoroid and start automating your Android device.
-
----
-
-## 🧩 Prerequisites
-
-### Android Debug Bridge (ADB)
+### 1. Install ADB
 
 ADB must be installed and accessible from your terminal.
 
@@ -77,7 +70,7 @@ ADB must be installed and accessible from your terminal.
 
 ---
 
-## 📦 Installation
+### 2. Clone the repo
 
 Clone the repository and install dependencies.
 
@@ -86,25 +79,7 @@ git clone https://github.com/yourusername/autoroid.git
 cd autoroid
 ```
 
-Create and activate a virtual environment (recommended):
-
-```bash
-python -m venv venv
-```
-
-**Windows**
-
-```bash
-.\venv\Scripts\activate
-```
-
-**macOS / Linux**
-
-```bash
-source venv/bin/activate
-```
-
-Install required packages:
+### 3. Install packages
 
 ```bash
 pip install -r requirements.txt
@@ -112,7 +87,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔐 Configuration
+### 4. Configuration
 
 Create a `.env` file in the project root.
 
@@ -120,7 +95,7 @@ Create a `.env` file in the project root.
 cp .env.example .env
 ```
 
-### All Variables
+#### All Variables
 
 | Variable | Description | Example |
 |--------|-------------|---------|
@@ -136,7 +111,7 @@ cp .env.example .env
 
 ---
 
-## ▶ Running Autoroid
+### 5. Running Autoroid
 
 Make sure your Android device or emulator is connected.
 
@@ -157,31 +132,13 @@ Example commands:
 * `Launch Instagram and scroll for 10 seconds`
 * `Enable airplane mode`
 
----
 
 ## 🤝 Contributing
 
-Contributions are welcome and appreciated ❤️
+Contributions are welcome ❤️! Please fork the repository and submit a pull request with your changes.
 
-1. Fork the repository
-2. Create a feature branch
-
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-4. Push to your fork
-5. Open a Pull Request
-
----
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.
 See the [LICENSE](LICENSE) file for details.
-
----
-
-<p align="center">
-  Made with ❤️ by the Open Source Community
-</p>
