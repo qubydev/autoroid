@@ -15,13 +15,13 @@
 ## 👉 Introduction
 
 **Autoroid** leverages Large Language Models (LLMs) to understand your intent and interact with your Android device through **ADB**.
-From navigating apps to automating repetitive actions like taps, swipes, and text input — just tell Autoroid what you want to do.
+From navigating apps to automating human actions like taps, swipes, and text input — just tell Autoroid what you want to do.
 
 
 ## ✨ Features
 
 * **Natural Language Control** -
-  Describe actions like:
+  Ask to do something in human language:
   `Open Settings and enable dark mode`
 
 * **UI Awareness** -
@@ -31,7 +31,7 @@ From navigating apps to automating repetitive actions like taps, swipes, and tex
   Works with physical devices and emulators as long as ADB is enabled.
 
 * **Configurable LLM Backend** -
-  Supports OpenAI (GPT-4o) and any LangChain-compatible provider.
+  Supports OpenAI, Gemini, Anthropic and Ollama.
 
 
 ## 🚀 Quick Start
@@ -55,10 +55,10 @@ ADB must be installed and accessible from your terminal.
 
    * Add `C:\adb` to your system environment variables
 
-4. **Connect your device**
+4. **Connect your device (any one of the below)**
 
-   * Enable *USB Debugging* on your Android device
-   * Connect via USB or start an emulator
+   * Enable **USB Debugging** on your Android device and connect via USB
+   * Start an android emulator
 
 5. **Verify installation**
 
@@ -75,7 +75,7 @@ ADB must be installed and accessible from your terminal.
 Clone the repository and install dependencies.
 
 ```bash
-git clone https://github.com/yourusername/autoroid.git
+git clone https://github.com/qubydev/autoroid.git
 cd autoroid
 ```
 
