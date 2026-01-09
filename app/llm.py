@@ -20,7 +20,7 @@ def get_model():
         return ChatGoogleGenerativeAI(
             model=MODEL,
             google_api_key=API_KEY,
-            # Gemini usually handles system messages well now, but strict mode can help
+            # Strict mode
             convert_system_message_to_human=False 
         )
     else:
