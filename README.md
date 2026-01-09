@@ -1,12 +1,17 @@
-# 🤖 Autoroid
+<p align="center"><img src="logo.png" width="200" alt="Sloggo Logo"></p>
 
-> **AI-Powered Android Automation Assistant**
-> Control your Android device, execute complex tasks, and automate workflows using natural language.
+<h1 align="center">Autoroid</h1>
+<p align="center">
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square" alt="Version"></a>
+<a href="https://developer.android.com/studio/command-line/adb"><img src="https://img.shields.io/badge/Android-ADB-green?style=flat-square&logo=android&logoColor=white" alt="Build"></a>
+<a href="https://github.com/phare/sloggo?tab=MIT-1-ov-file#readme"><img src="https://img.shields.io/github/license/phare/sloggo?style=flat-square" alt="License"></a>
+</p>
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
-[![Android](https://img.shields.io/badge/Android-ADB-green?style=for-the-badge\&logo=android\&logoColor=white)](https://developer.android.com/studio/command-line/adb)
-[![LangChain](https://img.shields.io/badge/LangChain-Powered-orange?style=for-the-badge)](https://www.langchain.com/)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
+<div align="center">
+   AI-Powered Android Automation Assistant
+</div>
+
+## 👉 Introduction
 
 **Autoroid** leverages Large Language Models (LLMs) to understand your intent and interact with your Android device through **ADB**.
 From navigating apps to automating repetitive actions like taps, swipes, and text input — just tell Autoroid what you want to do.
