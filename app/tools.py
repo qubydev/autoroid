@@ -8,7 +8,7 @@ from app import sanitizer
 
 @tool
 def read_screen() -> str:
-    """Reads the current screen state via ADB."""
+    """Reads the current screen state and it's interactive elements."""
     subprocess.run([ADB_PATH, "shell", "uiautomator", "dump", SCREEN_DUMP_PATH], capture_output=True)
     subprocess.run([ADB_PATH, "pull", SCREEN_DUMP_PATH, LOCAL_DUMP_PATH], capture_output=True)
 

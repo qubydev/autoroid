@@ -8,7 +8,7 @@ from app.agent import get_agent_graph
 if __name__ == "__main__":
     try:
         if not is_device_connected():
-            print(f"{Colors.FAIL}❌ No ADB devices found.{Colors.ENDC}")
+            print(f"{Colors.FAIL}❌ No connected devices found.{Colors.ENDC}")
             exit(1)
 
         print(f"{Colors.HEADER}🤖 Android Agent Started{Colors.ENDC}")
