@@ -11,6 +11,12 @@
    AI-Powered Android Automation Assistant
 </div>
 
+<p align="center">
+<a href="https://www.producthunt.com/products/autoroid?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-autoroid" target="_blank" rel="noopener noreferrer">
+   <img alt="Autoroid - AI-Powered Android Automation Assistant | Product Hunt" width="200" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1060746&amp;t=1768029907318">
+</a>
+</p>
+
 
 ## 👉 Introduction
 
