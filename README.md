@@ -19,7 +19,9 @@
 </a>
 </p>
 
-[![Watch the demo](https://img.youtube.com/vi/Gug9UumH57Q/0.jpg)](https://www.youtube.com/watch?v=Gug9UumH57Q)
+<div align="center">
+  <video src="demo.mp4" controls></video>
+</div>
 
 
 ## 👉 Introduction
